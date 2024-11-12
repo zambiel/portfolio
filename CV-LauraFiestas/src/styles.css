@@ -1,0 +1,80 @@
+/* You can add global styles to this file, and also import other style files */
+
+/*
+Móviles pequeños (hasta 576px)
+@media (max-width: 576px) {
+    Estilos para móviles pequeños
+}
+
+Móviles grandes (de 577px a 767px)
+@media (min-width: 577px) and (max-width: 767px) {
+    Estilos para móviles grandes
+}
+
+Tablets (de 768px a 1023px)
+@media (min-width: 768px) and (max-width: 1023px) {
+    Estilos para tablets
+}
+
+Pantallas de escritorio pequeñas (de 1024px a 1199px)
+@media (min-width: 1024px) and (max-width: 1199px) {
+    Estilos para pantallas de escritorio pequeñas
+}
+
+Pantallas de escritorio medianas (de 1200px a 1439px)
+@media (min-width: 1200px) and (max-width: 1439px) {
+    Estilos para pantallas de escritorio medianas
+}
+
+Pantallas de escritorio grandes (1440px en adelante)
+@media (min-width: 1440px) {
+    Estilos para pantallas de escritorio grandes
+}
+
+*/
+
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: "Outfit", serif;
+
+}
+
+h1 {
+    font-size: 4rem;
+}
+span {
+    font-size: 4rem;
+    font-weight: bold;
+}
+h2 {
+    font-size: 3rem;
+}
+h3 {
+    font-size: 2.5rem;
+}
+h2 {
+    font-size: 2rem;
+}
+a {
+    font-size: 1.8rem;
+    color: #000;
+    text-decoration: none;
+}
+p {
+    font-size: 1.7rem;
+}
+
+
+li {
+    line-height: 2;
+    font-size: 1.8rem;
+}
+
+.visible {
+    display: none;
+}
+

@@ -1,0 +1,33 @@
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 1rem 3rem;
+}
+
+.contact {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 2rem;
+}
+
+.navegacion {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.enlace:hover {
+    text-decoration: underline;
+}
+.enlace:visited {
+    text-decoration: underline;
+}
+
+.icon-contact {
+    width: 28px;
+}

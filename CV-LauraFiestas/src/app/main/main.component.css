@@ -1,0 +1,53 @@
+main {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    gap: 40px;
+}
+
+.perfil {
+    width: 40%;
+}
+
+.span-laura {
+    color: blue;
+}
+
+.span-laura:hover {
+    color: #DE9900;
+}
+
+.contenido {
+    color: rgb(54, 54, 54);
+    margin-top: 50px;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+}
+
+.btn1 {
+    border-bottom: 2px solid #DE9900;
+}
+.btn1:hover{
+    border-bottom: 2px solid blue;
+}
+
+.btn2:hover {
+    border-bottom: 2px solid #DE9900;
+}
+
+
+.container-profile {
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 80px;
+}
